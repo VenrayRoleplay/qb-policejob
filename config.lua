@@ -17,7 +17,7 @@ Config.LicenseRank = 2
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 Config.Locations = {
     ["duty"] = {
-        [1] = vector3(440.085, -974.924, 30.689),
+        [1] = vector3(442.9, -982.16, 30.72),
         [2] = vector3(-449.811, 6012.909, 31.815),
     },
     ["vehicle"] = {
@@ -26,7 +26,7 @@ Config.Locations = {
         [3] = vector4(-455.39, 6002.02, 31.34, 87.93),
     },
     ["stash"] = {
-        [1] = vector3(453.075, -980.124, 30.889),
+        [1] = vector3(461.05, -980.64, 34.3),
     },
     ["impound"] = {
         [1] = vector4(436.68, -1007.42, 27.32, 180.0),
@@ -37,23 +37,25 @@ Config.Locations = {
         [2] = vector4(-475.43, 5988.353, 31.716, 31.34),
     },
     ["armory"] = {
-        [1] = vector3(462.23, -981.12, 30.68),
+        [1] = vector3(437.92, -983.26, 34.3),
     },
     ["trash"] = {
         [1] = vector3(439.0907, -976.746, 30.776),
     },
     ["fingerprint"] = {
-        [1] = vector3(460.9667, -989.180, 24.92),
+        [1] = vector3(452.48, -1000.13, 27.49),
     },
     ["evidence"] = {
-        [1] = vector3(442.1722, -996.067, 30.689),
+        [1] = vector3(458.37, -990.82, 27.49),
         [2] = vector3(451.7031, -973.232, 30.689),
         [3] = vector3(455.1456, -985.462, 30.689),
     },
     ["stations"] = {
-        [1] = {label = "Police Station", coords = vector4(428.23, -984.28, 29.76, 3.5)},
-        [2] = {label = "Prison", coords = vector4(1845.903, 2585.873, 45.672, 272.249)},
-        [3] = {label = "Police Station Paleto", coords = vector4(-451.55, 6014.25, 31.716, 223.81)},
+        [1] = {label = "Politie hoofdbureau", coords = vector4(428.23, -984.28, 29.76, 3.5)},
+        [2] = {label = "Gevangenis", coords = vector4(1845.903, 2585.873, 45.672, 272.249)},
+        [3] = {label = "Politiebureau Paleto", coords = vector4(-451.55, 6014.25, 31.716, 223.81)},
+        [4] = {label = "Politiebureau Vespucci", coords = vector4(-1084.59, -811.31, 33.19, 119.15)},
+
     },
 }
 
@@ -104,60 +106,140 @@ Config.SecurityCameras = {
 Config.AuthorizedVehicles = {
 	-- Grade 0
 	[0] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+		["poltouran2016"] = "Politie touran",
+        ["politiebus"] = "Politie transporter",
 	},
 	-- Grade 1
 	[1] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
-
+		["poltouran2016"] = "Politie touran",
+                ["politiebus"] = "Politie transporter",
+                ["Bklasse"] = "Politie Bklasse",
 	},
 	-- Grade 2
 	[2] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+		["poltouran2016"] = "Politie touran",
+                ["politiebus"] = "Politie transporter",
+                ["Bklasse"] = "Politie Bklasse",
+                ["bf400"] = "Politie offroad motor",
+                ["bagger"] = "Politie Motor",
+                ["polamarok"] = "Politie amarok",
 	},
 	-- Grade 3
 	[3] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+		["poltouran2016"] = "Politie touran",
+                ["politiebus"] = "Politie transporter",
+                ["Bklasse"] = "Politie Bklasse",
+                ["bf400"] = "Politie offroad motor",
+                ["bagger"] = "Politie Motor",
+                ["polamarok"] = "Politie amarok",
 	},
 	-- Grade 4
 	[4] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
-	}
+		["poltouran2016"] = "Politie touran",
+                ["politiebus"] = "Politie transporter",
+                ["Bklasse"] = "Politie Bklasse",
+                ["bf400"] = "Politie offroad motor",
+                ["bagger"] = "Politie Motor",
+                ["polamarok"] = "Politie amarok",
+        },
+	-- Grade 5
+	[5] = {
+		["police2"] = "Politie A6",
+		["poltouran2016"] = "Politie touran",
+                ["politiebus"] = "Politie transporter",
+                ["Bklasse"] = "Politie Bklasse",
+                ["bf400"] = "Politie offroad motor",
+                ["bagger"] = "Politie Motor",
+                ["polamarok"] = "Politie amarok",
+        },
+	-- Grade 6
+	[6] = {
+		["police2"] = "Politie A6",
+		["poltouran2016"] = "Politie touran",
+                ["politiebus"] = "Politie transporter",
+                ["Bklasse"] = "Politie Bklasse",
+                ["bf400"] = "Politie offroad motor",
+                ["bagger"] = "Politie Motor",
+                ["polamarok"] = "Politie amarok",
+                ["undercover"] = "Politie undercover",
+        },
+	-- Grade 7
+	[7] = {
+		["police2"] = "Politie A6",
+		["poltouran2016"] = "Politie touran",
+                ["politiebus"] = "Politie transporter",
+                ["Bklasse"] = "Politie Bklasse",
+                ["bf400"] = "Politie offroad motor",
+                ["bagger"] = "Politie Motor",
+                ["polamarok"] = "Politie amarok",
+                ["undercover"] = "Politie undercover",
+        },
+	-- Grade 8
+	[8] = {
+		["police2"] = "Politie A6",
+		["poltouran2016"] = "Politie touran",
+                ["politiebus"] = "Politie transporter",
+                ["Bklasse"] = "Politie Bklasse",
+                ["bf400"] = "Politie offroad motor",
+                ["bagger"] = "Politie Motor",
+                ["polamarok"] = "Politie amarok",
+                ["undercover"] = "Politie undercover",
+        },
+	-- Grade 9
+	[9] = {
+		["police2"] = "Politie A6",
+		["poltouran2016"] = "Politie touran",
+                ["politiebus"] = "Politie transporter",
+                ["Bklasse"] = "Politie Bklasse",
+                ["bf400"] = "Politie offroad motor",
+                ["bagger"] = "Politie Motor",
+                ["polamarok"] = "Politie amarok",
+                ["undercover"] = "Politie undercover",
+        },
+	-- Grade 10
+	[10] = {
+		["police2"] = "Politie A6",
+		["poltouran2016"] = "Politie touran",
+                ["politiebus"] = "Politie transporter",
+                ["Bklasse"] = "Politie Bklasse",
+                ["bf400"] = "Politie offroad motor",
+                ["bagger"] = "Politie Motor",
+                ["polamarok"] = "Politie amarok",
+                ["undercover"] = "Politie undercover",
+        },
+	-- Grade 11
+	[11] = {
+		["police2"] = "Politie A6",
+		["poltouran2016"] = "Politie touran",
+                ["politiebus"] = "Politie transporter",
+                ["Bklasse"] = "Politie Bklasse",
+                ["bf400"] = "Politie offroad motor",
+                ["bagger"] = "Politie Motor",
+                ["polamarok"] = "Politie amarok",
+                ["undercover"] = "Politie undercover",
+        },
+	-- Grade 12
+	[12] = {
+		["police2"] = "Politie A6",
+		["poltouran2016"] = "Politie touran",
+                ["politiebus"] = "Politie transporter",
+                ["Bklasse"] = "Politie Bklasse",
+                ["bf400"] = "Politie offroad motor",
+                ["bagger"] = "Politie Motor",
+                ["polamarok"] = "Politie amarok",
+                ["undercover"] = "Politie undercover",
+        },
+	-- Grade 13
+	[13] = {
+		["police2"] = "Politie A6",
+		["poltouran2016"] = "Politie touran",
+                ["politiebus"] = "Politie transporter",
+                ["Bklasse"] = "Politie Bklasse",
+                ["bf400"] = "Politie offroad motor",
+                ["bagger"] = "Politie Motor",
+                ["polamarok"] = "Politie amarok",
+                ["undercover"] = "Politie undercover",
+        },
 }
 
 Config.WhitelistedVehicles = {}
@@ -225,7 +307,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 1,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {5,6,7,8,9,10,11,12,13}
         },
         [2] = {
             name = "weapon_stungun",
@@ -236,7 +318,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 2,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {2,3,4,5,6,7,8,9,10,11,12,13}
         },
         [3] = {
             name = "weapon_pumpshotgun",
@@ -250,7 +332,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 3,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {13}
         },
         [4] = {
             name = "weapon_smg",
@@ -265,7 +347,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 4,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {12,13}
         },
         [5] = {
             name = "weapon_carbinerifle",
@@ -280,7 +362,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 5,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {13}
         },
         [6] = {
             name = "weapon_nightstick",
@@ -289,7 +371,7 @@ Config.Items = {
             info = {},
             type = "weapon",
             slot = 6,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4,5,6,7,8,9,10,11,12,13}
         },
         [7] = {
             name = "pistol_ammo",
@@ -298,7 +380,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 7,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {5,6,7,8,9,10,11,12,13}
         },
         [8] = {
             name = "smg_ammo",
@@ -307,7 +389,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 8,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {12,13}
         },
         [9] = {
             name = "shotgun_ammo",
@@ -316,7 +398,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 9,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {12,13}
         },
         [10] = {
             name = "rifle_ammo",
@@ -325,7 +407,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 10,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {12,13}
         },
         [11] = {
             name = "handcuffs",
@@ -334,7 +416,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 11,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4,5,6,7,8,9,10,11,12,13}
         },
         [12] = {
             name = "weapon_flashlight",
@@ -343,7 +425,7 @@ Config.Items = {
             info = {},
             type = "weapon",
             slot = 12,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4,5,6,7,8,9,10,11,12,13}
         },
         [13] = {
             name = "empty_evidence_bag",
@@ -352,7 +434,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 13,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4,5,6,7,8,9,10,11,12,13}
         },
         [14] = {
             name = "police_stormram",
@@ -361,7 +443,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 14,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4,5,6,7,8,9,10,11,12,13}
         },
         [15] = {
             name = "armor",
@@ -370,7 +452,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 15,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {11,12,13}
         },
         [16] = {
             name = "radio",
@@ -379,7 +461,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 16,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4,5,6,7,8,9,10,11,12,13}
         },
         [17] = {
             name = "heavyarmor",
@@ -388,7 +470,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 17,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {12,13}
         }
     }
 }
